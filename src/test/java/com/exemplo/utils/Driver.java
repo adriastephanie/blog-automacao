@@ -25,8 +25,6 @@ public class Driver {
     private static final String EDGE_PRIVATE_MODE = "-inprivate";
     private static final String CHROME_INCOGNITO = "--incognito";
 
-    private static final String HEADLESS = "--headless";
-
     private Driver() {
         // Construtor privado para evitar instanciação direta
     }
@@ -47,7 +45,6 @@ public class Driver {
                 WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.addArguments(FIREFOX_PRIVATE_MODE);
-                firefoxOptions.addArguments(HEADLESS);
                 driver = new FirefoxDriver(firefoxOptions);
                 break;
             case EDGE:
@@ -60,7 +57,6 @@ public class Driver {
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments(CHROME_INCOGNITO);
-                chromeOptions.addArguments(HEADLESS);
                 driver = new ChromeDriver(chromeOptions);
                 break;
         }

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eaaf40d5-8495-40c7-a309-6ab96eee4ec0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exemplo/utils/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exemplo/utils/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exemplo/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exemplo/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +37,18 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
+    "JUnit.BlogPageTest.testHomePage.executor": "Run",
+    "JUnit.BlogPageTest.testSearchFailed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "io.qameta.allure.idea.settings.AppSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BlogPageTest.testSearchFailed">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exemplo.automacao.Main" />
       <module name="automacao-selenium" />
@@ -58,8 +62,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BlogPageTest.testHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automacao-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exemplo.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exemplo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.exemplo.tests.BlogPageTest" />
+      <option name="METHOD_NAME" value="testHomePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogPageTest.testSearchFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automacao-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exemplo.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exemplo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.exemplo.tests.BlogPageTest" />
+      <option name="METHOD_NAME" value="testSearchFailed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlogPageTest.testSearchFailed" />
+        <item itemvalue="JUnit.BlogPageTest.testHomePage" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
