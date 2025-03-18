@@ -24,6 +24,7 @@ public class Driver {
     private static final String FIREFOX_PRIVATE_MODE = "-private";
     private static final String EDGE_PRIVATE_MODE = "-inprivate";
     private static final String CHROME_INCOGNITO = "--incognito";
+    private static final String CHROME_WINDOW_SIZE = "--window-size=3840,2160";
 
     private Driver() {
         // Construtor privado para evitar instanciação direta
@@ -54,10 +55,12 @@ public class Driver {
                 driver = new EdgeDriver(edgeOptions);
                 break;
             default:
+                WebDriverManager.chromedriver().clearDriverCache();
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments(CHROME_INCOGNITO);
                 driver = new ChromeDriver(chromeOptions);
+                chromeOptions.addArguments(CHROME_WINDOW_SIZE);
                 break;
         }
         driver.manage().window().maximize();
