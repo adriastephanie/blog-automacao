@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaaf40d5-8495-40c7-a309-6ab96eee4ec0" name="Changes" comment="readme">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test-ci.yml" afterDir="false" />
+    <list default="true" id="eaaf40d5-8495-40c7-a309-6ab96eee4ec0" name="Changes" comment="add develop">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exemplo/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exemplo/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,11 +157,20 @@
       <option name="project" value="LOCAL" />
       <updated>1742258181426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add develop">
+      <option name="closed" value="true" />
+      <created>1742258391367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742258391367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="add develop" />
+    <option name="LAST_COMMIT_MESSAGE" value="add develop" />
   </component>
 </project>

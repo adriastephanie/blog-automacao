@@ -55,6 +55,8 @@ public class Driver {
                 driver = new EdgeDriver(edgeOptions);
                 break;
             default:
+                String chromeVersion = "133.0.6943.9800";
+                WebDriverManager.chromedriver().driverVersion(chromeVersion).setup();
                 WebDriverManager.chromedriver().clearDriverCache();
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
