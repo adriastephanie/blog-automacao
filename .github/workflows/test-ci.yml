@@ -1,9 +1,9 @@
 name: Selenium Java CI
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, develop ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, develop ]
 jobs:
   build:
     runs-on: ubuntu-latest
