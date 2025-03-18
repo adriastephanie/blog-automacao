@@ -79,3 +79,10 @@ BlogPage.java: Representa a página inicial . Contém os elementos e as ações 
 ### tests: 
 
 BlogPageTest.java: Contém os testes relacionados ao blog, como verificar se a página carrega corretamente e se a funcionalidade de pesquisa funciona etc.
+
+
+## Evidencias
+
+![Rodando 2 testes](img/2-teste.png)
+
+![Rodando 3 testes](img/3-teste.png)

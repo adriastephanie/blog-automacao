@@ -1,4 +1,5 @@
 package com.exemplo.tests;
+import com.exemplo.pages.BasePage;
 import com.exemplo.pages.BlogPage;
 import com.exemplo.utils.Base;
 import org.junit.jupiter.api.AfterEach;
@@ -29,6 +30,7 @@ public class BlogPageTest extends Base {
         blogPage.navigateTo();
         String title = blogPage.getPageTitle();
         assertEquals(blogPage.getExpectedTitle(), title);
+
     }
     @Test
     @Tag("funcional")

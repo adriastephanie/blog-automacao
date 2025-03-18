@@ -5,6 +5,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class BlogPage extends BasePage {
 
@@ -42,8 +46,9 @@ public class BlogPage extends BasePage {
 
 
     public void enterSearchText(String text) {
+        searchField.clear();
         searchField.sendKeys(text);
-        searchField.sendKeys(Keys.RETURN);
+        //searchField.sendKeys(Keys.RETURN);
     }
 
     public String getPageTitle() {

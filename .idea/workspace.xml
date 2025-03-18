@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaaf40d5-8495-40c7-a309-6ab96eee4ec0" name="Changes" comment="add develop">
+    <list default="true" id="eaaf40d5-8495-40c7-a309-6ab96eee4ec0" name="Changes" comment="add versao">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exemplo/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exemplo/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exemplo/pages/BlogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exemplo/pages/BlogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exemplo/tests/BlogPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exemplo/tests/BlogPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,8 @@
     "JUnit.BlogPageTest.testSearchSuccessfully.executor": "Run",
     "JUnit.BlogPageTest.testSearchSucess.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "test",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -50,7 +54,12 @@
     "settings.editor.selected.configurable": "io.qameta.allure.idea.settings.AppSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BlogPageTest.testSearchSucess">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BlogPageTest.testSearchFailed">
     <configuration name="BlogPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automacao-selenium" />
       <extension name="coverage">
@@ -132,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BlogPageTest.testSearchSucess" />
         <item itemvalue="JUnit.BlogPageTest.testSearchFailed" />
-        <item itemvalue="JUnit.BlogPageTest.testSearchSuccessfully" />
+        <item itemvalue="JUnit.BlogPageTest.testSearchSucess" />
         <item itemvalue="JUnit.BlogPageTest.testHomePage" />
         <item itemvalue="JUnit.BlogPageTest" />
+        <item itemvalue="JUnit.BlogPageTest.testSearchSuccessfully" />
       </list>
     </recent_temporary>
   </component>
