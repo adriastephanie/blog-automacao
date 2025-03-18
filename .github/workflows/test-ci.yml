@@ -1,0 +1,31 @@
+name: Selenium Java CI
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 11
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+          cache: maven
+      - name: Run Funcional Tests in Chrome
+        run: mvn clean test -Dgroups=negativo
+      - name: Gerar Allure Report
+        if : always()
+        run: mvn allure:report
+
+      - name: Upload Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Allure Reports
+          path: "**/allure-results"
+          retention-days: 90
+          if-no-files-found: warn
