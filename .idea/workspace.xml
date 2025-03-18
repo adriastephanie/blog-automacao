@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaaf40d5-8495-40c7-a309-6ab96eee4ec0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eaaf40d5-8495-40c7-a309-6ab96eee4ec0" name="Changes" comment="readme">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test-ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     "JUnit.BlogPageTest.testSearchSuccessfully.executor": "Run",
     "JUnit.BlogPageTest.testSearchSucess.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -149,6 +148,19 @@
       <option name="presentableId" value="Default" />
       <updated>1742223814105</updated>
     </task>
+    <task id="LOCAL-00001" summary="readme">
+      <option name="closed" value="true" />
+      <created>1742258181426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742258181426</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
