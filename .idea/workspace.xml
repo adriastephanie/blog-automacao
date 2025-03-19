@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaaf40d5-8495-40c7-a309-6ab96eee4ec0" name="Changes" comment="add versao">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/exemplo/pages/BlogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exemplo/pages/BlogPage.java" afterDir="false" />
@@ -59,7 +58,7 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BlogPageTest.testSearchFailed">
+  <component name="RunManager" selected="JUnit.BlogPageTest">
     <configuration name="BlogPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automacao-selenium" />
       <extension name="coverage">
@@ -141,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlogPageTest" />
         <item itemvalue="JUnit.BlogPageTest.testSearchFailed" />
         <item itemvalue="JUnit.BlogPageTest.testSearchSucess" />
         <item itemvalue="JUnit.BlogPageTest.testHomePage" />
-        <item itemvalue="JUnit.BlogPageTest" />
         <item itemvalue="JUnit.BlogPageTest.testSearchSuccessfully" />
       </list>
     </recent_temporary>

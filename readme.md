@@ -83,6 +83,8 @@ BlogPageTest.java: Contém os testes relacionados ao blog, como verificar se a p
 
 ## Evidencias
 
+![Rodando 1 testes](img/teste.png)
+
 ![Rodando 2 testes](img/2-teste.png)
 
 ![Rodando 3 testes](img/3-teste.png)

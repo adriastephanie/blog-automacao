@@ -2,10 +2,7 @@ package com.exemplo.tests;
 import com.exemplo.pages.BasePage;
 import com.exemplo.pages.BlogPage;
 import com.exemplo.utils.Base;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -25,6 +22,7 @@ public class BlogPageTest extends Base {
     }
 
     @Test
+    @DisplayName("Validar carregamento do blog")
     @Tag("funcional")
     public void testHomePage() {
         blogPage.navigateTo();
@@ -33,21 +31,29 @@ public class BlogPageTest extends Base {
 
     }
     @Test
+    @DisplayName("Validar pesquisa do post com palavra valida")
     @Tag("funcional")
-    public void testSearchSucess() {
+    public void testSearchSucess() throws InterruptedException {
         blogPage.navigateTo();
+        Thread.sleep(3000);
         blogPage.clickSearchButton();
+        Thread.sleep(3000);
         blogPage.enterSearchText("limbo");
+        Thread.sleep(5000);
         assertTrue(blogPage.isPagePostSucess(), "O Resultados não foi encontrado");
         assertTrue(blogPage.isPostPresent(), "A mensagem de erro esperada não foi encontrada.");
     }
 
     @Test
+    @DisplayName("Validar pesquisa do post com palavra invalida")
     @Tag("negativo")
-    public void testSearchFailed() {
+    public void testSearchFailed() throws InterruptedException {
         blogPage.navigateTo();
+        Thread.sleep(3000);
         blogPage.clickSearchButton();
+        Thread.sleep(3000);
         blogPage.enterSearchText("tetete");
+        Thread.sleep(5000);
         assertTrue(blogPage.isPagePostSucess(), "O Resultados não foi encontrado");
         assertTrue(blogPage.isPageErrorMessageDisplayed(), "A mensagem de erro esperada não foi encontrada.");
     }

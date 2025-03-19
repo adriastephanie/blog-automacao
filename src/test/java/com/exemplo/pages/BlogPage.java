@@ -46,9 +46,10 @@ public class BlogPage extends BasePage {
 
 
     public void enterSearchText(String text) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         searchField.clear();
         searchField.sendKeys(text);
-        //searchField.sendKeys(Keys.RETURN);
+        searchField.sendKeys(Keys.RETURN);
     }
 
     public String getPageTitle() {
